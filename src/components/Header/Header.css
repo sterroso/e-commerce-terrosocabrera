@@ -1,0 +1,48 @@
+.Header {
+    display: flex;
+    align-items: center;
+    background-color: #f57328;
+    color: #181818;
+    margin: 0 1rem;
+    padding: 1rem 0.75rem 1.5rem;
+}
+
+.Header-logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Header-logoContainer.link,
+.Header-logoContainer.link:link,
+.Header-logoContainer.link:hover,
+.Header-logoContainer.link:focus,
+.Header-logoContainer.link:active,
+.Header-logoContainer.link:visited {
+    border: none;
+}
+
+.Header-logoContainer.link:hover {
+    cursor: pointer;
+}
+
+.Header-logo {
+    margin: 0;
+    padding: 0;
+    width: 64px;
+    height: 64px;
+    border: none;
+    border-radius: 4px;
+}
+
+.Header-brand {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 1rem;
+}
+
+.Header-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

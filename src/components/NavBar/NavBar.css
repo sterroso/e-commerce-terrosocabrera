@@ -1,0 +1,48 @@
+.NavBar {
+    margin: 0 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ffe9a0;
+
+}
+
+.NavBar-mainMenu {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+    padding: 0.75rem;
+}
+
+.NavBar-menuItem {
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.NavBar-link {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.25rem 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.NavBar-link:link,
+.NavBar-link:visited {
+    background-color: transparent;
+    color: #181818;
+}
+
+.NavBar-link:hover,
+.NavBar-link:active,
+.NavBar-link:focus {
+    background-color: #cc3636;
+    color: #ffe9a0;
+    border: none;
+}
+
+.NavBar-materialSymbolsOutlined {
+    font-family: 'Material Symbols Outlined';
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    margin: 0;
+    padding: 0;
+}

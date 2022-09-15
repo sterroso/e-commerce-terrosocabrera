@@ -13,6 +13,10 @@ function Header() {
             <div className='Header-brand'>
                 <h1 className='Header-title'>RapiBytes Online</h1>
             </div>
+
+            <button className='Header-cartButton' type="button" data-bs-toggle="offcanvas" data-bs-target="#CartWidget" aria-controls='CartWidget'>
+                <span id='Header-cartIcon' className='Header-materialSymbolsOutlined'>shopping_cart</span>
+            </button>
         </header>
     );
 }
